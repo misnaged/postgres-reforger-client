@@ -1,0 +1,36 @@
+MetaFileClass {
+ Name "{E8B0F56085132439}Assets/box.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{64DF28813E1FB74E}" {
+     SourceMaterial "BoxMatt"
+     AssignedMaterial "{7D4AD0F807A3F9F8}Assets/Data/BoxMatt.emat"
+    }
+   }
+   MeshParams {
+    MeshParam Cube {
+    }
+   }
+   GeometryParams {
+    GeometryParam UBX_Box {
+     SurfaceProperties {
+      "{536BF67B2052B869}material/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+  }
+  FBXResourceClass PS4 : PC {
+  }
+  FBXResourceClass PS5 : PC {
+  }
+  FBXResourceClass HEADLESS : PC {
+  }
+ }
+}

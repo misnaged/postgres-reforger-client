@@ -1,0 +1,22 @@
+SCR_BaseGameMode PG_GameMode1 : "{4A34F5F162154063}Prefabs/PG_GameMode.et" {
+ components {
+  EPF_BasicRespawnSystemComponent "{64DF46A9252A3501}" {
+   m_SpawnLogic SCR_AutoSpawnLogic "{64DF46A9B36FB26D}" {
+   }
+  }
+  EPF_PersistenceManagerComponent "{64DF46A9252A350F}" {
+   m_pConnectionInfo PG_PostgresConnectionInfo "{64DF488A2DD23BB3}" {
+   }
+  }
+ }
+ coords 129.553 1 121.345
+}
+SCR_FactionManager FactionManager_FFA1 : "{A1C54BBE72C5C696}Prefabs/MP/Managers/Factions/FactionManager_FFA.et" {
+ coords 124.892 1 117.741
+}
+EPF_SpawnPoint {
+ coords 128.823 1 116.631
+}
+GenericEntity Backpack_IIFS_FieldPack_64DF488B61287D7B2 : "{95D4766BBE46F23D}Prefabs/Items/Equipment/Backpacks/Backpack_IIFS_FieldPack.et" {
+ coords 122.264 1.238 115.593
+}

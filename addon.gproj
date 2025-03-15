@@ -1,0 +1,8 @@
+GameProject {
+ ID "PostgresDb"
+ GUID "64DF28805E26E584"
+ TITLE "PostgresDb"
+ Dependencies {
+  "5D6EA74A94173EDF" "5D6EBC81EB1842EF" "58D0FB3206B6F859"
+ }
+}
